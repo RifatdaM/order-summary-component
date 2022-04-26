@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body class="font-red bg-primary-PaleBlue">
+    <div
+      class="flex flex-col justify-center items-center  px-4 md:px-0 h-screen"
+    >
+      <div
+        class="w-[400px] h-auto rounded-lg overflow-hidden bg-white shadow-xl"
+      >
+        <!-- Hero Image -->
+        <div class="">
+          <img src="./img/illustration-hero.svg" alt="" />
+        </div>
+
+        <!-- Details -->
+        <article class="p-8 md:p-12">
+          <!-- Title -->
+          <h1 class="text-center text-2xl font-black text-neutral-DarkBlue">
+            Order Summary
+          </h1>
+
+          <!-- Discription -->
+          <p
+            class="py-4 text-center text-sm font-medium text-neutral-DesaturatedBlue"
+          >
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+
+          <!-- Pay plan -->
+          <div
+            class="bg-neutral-VeryPaleBlue rounded-lg p-4 flex justify-between items-center"
+          >
+            <div class="flex">
+              <!-- Music Icon -->
+              <img src="./img/icon-music.svg" alt="" />
+
+              <!-- Plan & Price -->
+              <div class="flex pl-4 flex-col">
+                <h5 class="font-bold text-neutral-DarkBlue">Annual Plan</h5>
+                <p class="text-sm font-bold text-neutral-DesaturatedBlue">
+                  $59.99/year
+                </p>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <a
+              href="#"
+              class="text-sm font-bold underline text-primary-BrightBlue hover:no-underline hover:text-indigo-500"
+              >Change</a
+            >
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex flex-col gap-4 pt-6">
+            <a
+              href="#"
+              class="bg-primary-BrightBlue text-sm drop-shadow-2xl hover:bg-indigo-500 text-white rounded-lg font-bold w-auto text-center py-3"
+              >Proceed to Payment</a
+            >
+            <a
+              href="#"
+              class="text-center font-bold text-neutral-DesaturatedBlue text-sm hover:text-neutral-DarkBlue"
+              >Cancel Order</a
+            >
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="text-center">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.facebook.com/rifatdam/">Rakibul Hasan</a>.
+    </div>
+  </body>
+</html>
